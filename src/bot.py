@@ -1,6 +1,5 @@
 import logging
 
-import asyncio
 
 from aiogram import Bot, Dispatcher, Router
 from aiogram.types import BotCommand

@@ -5,9 +5,7 @@ from dataclasses import dataclass
 from sqlalchemy import select
 from sqlalchemy.engine import ScalarResult
 from sqlalchemy.ext.asyncio.session import AsyncSession
-from sqlalchemy.exc import (
-    NoResultFound,
-)
+
 
 from src.tgbot.database.models import User
 
